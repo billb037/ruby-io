@@ -1,0 +1,50 @@
+{
+  "sentiment_analysis": [
+    {
+      "positive": [
+        {
+          "sentiment": "Popular",
+          "topic": "games",
+          "score": 0.6748984055823062,
+          "original_text": "Popular games",
+          "original_length": 13,
+          "email": "pop@games.com",
+          "normalized_length": 13,
+          "phone": "1234567890"
+        },
+        {
+          "sentiment": "engaging",
+          "topic": "pop culture-inspired games",
+          "score": 0.6280145725181376,
+          "original_text": "engaging pop culture-inspired games",
+          "original_length": 35,
+          "email": "engage@games.com",
+          "normalized_length": 35,
+          "phone": "12345678"
+        }
+      ],
+        "negative": [
+        {
+          "sentiment": "get sucked into",
+          "topic": "the idea of planning",
+          "score": -0.7923352042939829,
+          "original_text": "Students get sucked into the idea of planning",
+          "original_length": 45,
+          "email": "sucks@games",
+          "normalized_length": 45,
+          "phone": "3162594220"
+        },
+        {
+          "sentiment": "be daunted",
+          "topic": null,
+          "score": -0.5734506634410159,
+          "original_text": "initially be daunted",
+          "original_length": 20,
+          "email": "daunted@games.com",
+          "normalized_length": 20,
+          "phone": ""
+        }
+      ]
+    }
+  ]
+}
