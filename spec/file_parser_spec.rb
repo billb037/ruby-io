@@ -11,4 +11,10 @@ describe FileParser do
       expect(parser.is_email_valid?("joe@dirt")).to eq(nil)
     end
   end
+
+  describe "#sum_score" do 
+    it "should sum all scores from array" do
+      expect(parser.sum_score([{"score"=>1.1},{"score"=>2.1}])).to eq(3.2)
+    end
+  end
 end
